@@ -1,0 +1,9 @@
+{"version":1.4,"name":"Ecowitt - Modules","namespace":"ecowittModules","variables":[
+
+    {"variable":"stationName","desc":"Weather station name","default":"Ecowitt GW1000"},
+
+    {"variable":"mainSensorName","desc":"Main sensor name","default":"WH65"},
+    
+    {"variable":"sensorReadings","desc":"Number of readings for 100% reception signal","default":"5"}
+    
+]}
