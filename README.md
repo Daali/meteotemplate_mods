@@ -10,4 +10,11 @@ modifications to meteotemplate for my own use.  Not polished or publishable mate
 * sets NWS Radar in an Iframe block
 * added settings.php and instructions
 * ![NWSRadarIframe](https://user-images.githubusercontent.com/451339/127758508-c120bee7-abce-4db8-afac-6d44608cc584.png)
+
+#added davidefa's ecowittModules hack aka ecowittModules_daali_hack
+* while only using FOSHKplugin to feed meteotemplate api, I am not getting the battery detail
+* so I removed the graphics for battery level and signal
+* Changed WS68BAT to WBAT since that is what the FOSHKplugin MT api puts in meteobridgeLive.txt
+* Changed RBAT to WBAT since the WH40 rain sensor does not send battery information
+* Changed PP1BAT to PM1BAT since that is what the FOSHKplugin MT api puts in meteobridgeLive.txt
  
