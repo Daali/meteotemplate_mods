@@ -1,5 +1,5 @@
 # meteotemplate_mods
-modifications to meteotemplate for my own use
+modifications to meteotemplate for my own use.  Not polished or publishable material, very hacky.
 
 
 # added mod to windy block
