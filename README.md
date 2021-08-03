@@ -18,3 +18,7 @@ modifications to meteotemplate for my own use.  Not polished or publishable mate
 * Changed RBAT to WBAT since the WH40 rain sensor does not send battery information
 * Changed PP1BAT to PM1BAT since that is what the FOSHKplugin MT api puts in meteobridgeLive.txt
  ![ecowittModules_daali_hack](https://user-images.githubusercontent.com/451339/127936364-083c44c4-f8a2-4588-8583-a9d18b52e1d7.png)
+ 
+ #added hack to webcam block for simplifying use of bloomSky latest image
+ ![bloomskyCam](https://user-images.githubusercontent.com/451339/128084054-5a251855-2f2c-46a2-b9c7-8e1a05eea817.png)
+
