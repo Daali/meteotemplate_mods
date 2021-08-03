@@ -22,6 +22,11 @@
 	# 		v6.0 - Nov 1, 2017
 	# 			- added link to webcam plugin if installed
 	# 			- optimization
+	#       v1.0 - Daali hack of webcam to be single image for bloomsky
+	#            - use in conjuction with bloomSky Plugin
+	#            - eg.  https://www.jeffersonweather.com/plugins/bloomSky/bloomSkyLatest.php
+	#            - to get the latest image from the camera 
+	#
 
 	if(file_exists("settings.php")){
 		include("settings.php");
