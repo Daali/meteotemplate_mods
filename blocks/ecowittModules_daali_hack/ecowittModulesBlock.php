@@ -1,6 +1,6 @@
 <?php
 
-	# 		Ecowitt - Modules from davidefa
+	# 		Ecowitt - Modules
 	# 		Namespace:		ecowittModules
 	#		Meteotemplate Block
 
@@ -18,7 +18,6 @@
 	# 			- corrected WS80, WS68 and WS65 sensor name displayed
 	#       v1.4d - Aug 2, 2021
 	#			- Daali hack for his system, remove battery and signal and changed PP1 to PM1
-        #                       - this is davidefa's code, not Daali! all thanks go to davidefa!
 	
 		
 	// load theme
@@ -72,6 +71,7 @@
 		"WH31_6"  => array("module_name" => "WH31_6", "battery_percent" => (99-$apiData['T6BAT'] * 25), "set" => $apiData['T6BAT'],    "last_seen" => $apiData['U'], "data_type" => array("Temperature","Humidity"), "firmware" => $firmware,  "rf_status" => (117 - ($apiData['T6BAT'] * 18)) ),
 		"WH31_7"  => array("module_name" => "WH31_7", "battery_percent" => (99-$apiData['T7BAT'] * 25), "set" => $apiData['T7BAT'],    "last_seen" => $apiData['U'], "data_type" => array("Temperature","Humidity"), "firmware" => $firmware,  "rf_status" => (117 - ($apiData['T7BAT'] * 18)) ),
 		"WH31_8"  => array("module_name" => "WH31_8", "battery_percent" => (99-$apiData['T8BAT'] * 25), "set" => $apiData['T8BAT'],    "last_seen" => $apiData['U'], "data_type" => array("Temperature","Humidity"), "firmware" => $firmware,  "rf_status" => (117 - ($apiData['T8BAT'] * 18)) ),
+		"WH32"  => array("module_name" => "WH32", "battery_percent" => (99-$apiData['TBAT'] * 25), "set" => $apiData['TBAT'],    "last_seen" => $apiData['U'], "data_type" => array("Temperature","Humidity"), "firmware" => $firmware,  "rf_status" => (117 - ($apiData['TBAT'] * 18)) ),
 		"WH41_1"  => array("module_name" => "WH41_1", "battery_percent" => ($apiData['PM1BAT'] * 19),   "set" => $apiData['PM1BAT'],   "last_seen" => $apiData['U'], "data_type" => array("pp25"), "firmware" => $firmware, "rf_status" => (150 - ($apiData['PM1BAT'] * 18)) ),
 		"WH41_2"  => array("module_name" => "WH41_2", "battery_percent" => ($apiData['PP2BAT'] * 19),   "set" => $apiData['PP2BAT'],   "last_seen" => $apiData['U'], "data_type" => array("pp25"), "firmware" => $firmware, "rf_status" => (150 - ($apiData['PP2BAT'] * 18)) ),
 		"WH41_3"  => array("module_name" => "WH41_3", "battery_percent" => ($apiData['PP3BAT'] * 19),   "set" => $apiData['PP3BAT'],   "last_seen" => $apiData['U'], "data_type" => array("pp25"), "firmware" => $firmware, "rf_status" => (150 - ($apiData['PP3BAT'] * 18)) ),
