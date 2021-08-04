@@ -22,3 +22,6 @@ modifications to meteotemplate for my own use.  Not polished or publishable mate
  # added hack to webcam block (bloomskyCam block) for simplifying use of bloomSky latest image
  * ![bloomskyCam](https://user-images.githubusercontent.com/451339/128084054-5a251855-2f2c-46a2-b9c7-8e1a05eea817.png)
 
+# added fixed jetStream plugin.  
+* original website owner passed, college shut down operations.  Fixed for North America with WU image
+*  ![jetStream](https://user-images.githubusercontent.com/451339/128101333-d3c6fa51-bf29-4898-b864-73ee9bbff3d4.png)
