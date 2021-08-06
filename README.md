@@ -26,9 +26,9 @@ modifications to meteotemplate for my own use.  Not polished or publishable mate
 * original website owner passed, college shut down operations.  Fixed for North America with WU image
 *  ![jetStream](https://user-images.githubusercontent.com/451339/128101333-d3c6fa51-bf29-4898-b864-73ee9bbff3d4.png)
 
-# added radarBE 
+# added radarBE block
 * fixed expired ajax loop to iframe rainviewers radar
 *  ![radarBE](https://user-images.githubusercontent.com/451339/128531362-9a7ab846-14f0-46ff-84df-489e19117dd5.png)
 
-# added radarRainviewer
+# added radarRainviewer block
 * new block to use radarBE's rainviewer iframe but to set location of station as default load
