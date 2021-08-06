@@ -29,3 +29,6 @@ modifications to meteotemplate for my own use.  Not polished or publishable mate
 # added radarBE 
 * fixed expired ajax loop to iframe rainviewers radar
 *  ![radarBE](https://user-images.githubusercontent.com/451339/128531362-9a7ab846-14f0-46ff-84df-489e19117dd5.png)
+
+# added radarRainviewer
+* new block to use radarBE's rainviewer iframe but to set location of station as default load
