@@ -1,0 +1,7 @@
+{"version":3.3,"name":"Meteogram","namespace":"meteogram","variables":[
+{"variable":"meteogramLocations","desc":"Go to https://www.yr.no/storage/lookup/English.csv.zip, search for your location and then copy the second column, it will look for example something like this: lat=41.89193&lon=12.51133&altitude=20 ( or provide your own coordinates ). You also have to provide the name of the place to be used in the select box. You can use more than one location, if you use more than one, the first one will be loaded by default. If you only specify one, there will be no selection box. <br><br>The syntax is as follows:<br><i>place_name,url;place_name2,url2;....</i><br><br>First name, then comma (,), then url and semi-colon to separate the locations.","default":"Rome-Italy,lat=41.89193&lon=12.51133&altitude=20"},
+{"variable":"resolution","desc":"What data to display? ( 1h, 6h, all )","default":"1h"},
+{"variable":"iconPosition","desc":"Position of sun/cloud icons (top,normal)","default":"normal"},
+{"variable":"windChartHeight","desc":"Height of wind chart ( expressed in % )","default":"30"},
+{"variable":"separation","desc":"Separation between temperature and wind graphs ( expressed in % )","default":"5"}
+]}
