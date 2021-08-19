@@ -1,0 +1,7 @@
+{"version":5.1,"name":"Station Status with RPI","namespace":"stationStatusRPI","variables":[
+    
+    {"variable":"maxInterval","desc":"number of minutes. If the last record in the database is older than this, the station will show as \"offline\" and the corresponding time will be registered as outage. I recommend using something slightly higher than double the normal database update interval (most likely the interval is 5 minutes, so I would use something like 11, one missed update is not a big deal and the subsequent update might be delayed).","default":"15"},
+    
+    {"variable":"showOutages","desc":"select if you want to show the outages (periods when station was offline) in the block","default":"true"},{"variable":"maxOutages","desc":"select the maximum number of displayed outages - if the number of outages is more than this, individual outages will be hidden and only the number and total offline time displayed (to prevent very long lists in case your station was offline very often)","default":"20"},
+    
+    {"variable":"outageDays","desc":"outges will be shown from previous X days. This is where you specify how many days back you want to check and show the outages. I recommend not using more than 7 (one week).","default":"7"}]}
