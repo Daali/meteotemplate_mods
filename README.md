@@ -1,7 +1,7 @@
 # meteotemplate_mods
 modifications to meteotemplate for my own use.  Not polished or publishable material, very hacky.
 
-
+7
 # added mod to windy block
 * to add settings.php to enable control of default block loaded map overlay
 * ![windy](https://user-images.githubusercontent.com/451339/127758514-dd61ced1-eaf3-4c98-a2b7-86c3da321893.png)
@@ -32,3 +32,8 @@ modifications to meteotemplate for my own use.  Not polished or publishable mate
 
 # added radarRainviewer block
 * new block to use radarBE's rainviewer iframe but to set location of station as default load
+
+# added stationStatusRPI block
+* new block to show meteobridge RPI status in the stationStatus. 
+* added hack of davidefa's api.php, /update/apiSetup.php and /update/saveAPISettings.php 
+* ![stationStatusRPI](https://user-images.githubusercontent.com/451339/129999608-d783fa9b-e44f-4b68-8721-0b181391a343.png)
