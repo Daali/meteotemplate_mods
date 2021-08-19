@@ -32,3 +32,7 @@ modifications to meteotemplate for my own use.  Not polished or publishable mate
 
 # added radarRainviewer block
 * new block to use radarBE's rainviewer iframe but to set location of station as default load
+
+# added stationStatusRPI block
+* new block to show meteobridge RPI status in the stationStatus. 
+* added hack of davidefa's api.php, /update/apiSetup.php and /update/saveAPISettings.php 
