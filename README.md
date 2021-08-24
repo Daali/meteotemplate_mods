@@ -36,3 +36,8 @@ modifications to meteotemplate for my own use.  Not polished or publishable mate
 * new block to show meteobridge RPI status in the stationStatus. 
 * added hack of davidefa's api.php, /update/apiSetup.php and /update/saveAPISettings.php 
 * ![stationStatusRPI](https://user-images.githubusercontent.com/451339/129999608-d783fa9b-e44f-4b68-8721-0b181391a343.png)
+
+# added webcamMovie block
+* new block hack of webcam block to use video of pre-processed mp4s from IPTimelapse software
+* ![webcamMovie](https://user-images.githubusercontent.com/451339/130691363-266cb736-fc22-4cf8-9509-ef1fe0cb2ea6.png)
+
