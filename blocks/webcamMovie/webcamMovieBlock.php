@@ -149,15 +149,6 @@
 	<?php
 		}
 	?>
-	<?php 
-		if(file_exists("../../../plugins/webcam/index.php")){
-	?>
-			<div style="width:98%;margin:0 auto">
-				<a href="<?php echo $pageURL.$path?>plugins/webcam/index.php" target="_blank"><?php echo lang('more','l')?></a>
-			</div>
-	<?php
-		}
-	?>
 	<div id="webcamWindow"></div>
 	<script>
 		$(".webcamMapOpener").click(function(){
