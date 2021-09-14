@@ -1,0 +1,1 @@
+{"version":1.0,"name":"ifttt_data_alert block","namespace":"ifttt_data_alert","variables":[{"variable":"api_key","desc":"Your maker api key:", "default":"xxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxx"},{"variable":"event_trigger","desc":"event hook","default":"feed_alert"},{"variable":"stale_minutes","desc":"Amount in minutes we consider station to be offline","default":"5"}]}
